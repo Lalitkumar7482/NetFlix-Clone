@@ -1,0 +1,47 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: rgb(3, 36, 61);
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
+
+.logo img {
+    width: 120px;
+
+}
+
+.hero {
+    background: url(./image/netflix\ home\ page\ final.png) center/cover no-repeat;
+    color: rgb(223, 10, 10);
+    text-align: center;
+    padding: 100px 200px;
+}
+
+.movies {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 20px;
+}
+
+.movies .movie {
+    margin: 10px;
+    padding: 10px;
+    /* border: 1px solid #ccc; */
+    text-align: space-between;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
